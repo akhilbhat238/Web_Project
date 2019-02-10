@@ -1,0 +1,78 @@
+body {
+    background-color: white;
+}
+
+.navbar-light {
+    background-color: #c0dfd9;
+}
+
+.navbar-light .navbar-brand {
+    color: gray;
+    padding-left: 5vw;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar-brand {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 300%;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.nav-link {
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-link a {
+    color: white;
+}
+
+.navbar-nav li {
+    color: white;
+}
+
+.carousel-item {
+    position: relative;
+    /* width: 50%; */
+}
+
+.carousel-item .btn {
+    position: absolute;
+    top: 90%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: blue color;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.col-lg-3 .Icon {
+    display: inline-block;
+    padding-top: 15vh;
+}
+
+.col-lg-3 .Icon .Icon_Img {
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+    padding-left: 25vh;
+}
+
+.col-lg-3 .Icon .Icon_Img img {
+    /* border: 2px solid black; */
+    border-radius: 50%;
+    display: inline-block;
+    width: 30%;
+}
+
+.col-lg-3 .Description h3 {
+    display: inline-block;
+}
